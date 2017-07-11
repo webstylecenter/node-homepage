@@ -1,0 +1,35 @@
+{
+  "name": "node-homepage",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "animate.css": "^3.5.2",
+    "body-parser": "~1.17.1",
+    "browserify": "^14.4.0",
+    "browserify-middleware": "^7.1.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "font-awesome": "^4.7.0",
+    "fs-readdir-recursive": "^1.0.0",
+    "handlebars": "^4.0.10",
+    "jquery": "^3.2.1",
+    "jquery-modal": "^0.8.2",
+    "knex": "^0.13.0",
+    "lato-font": "^3.0.0",
+    "morgan": "~1.8.1",
+    "mysql": "^2.13.0",
+    "node-sass-middleware": "0.9.8",
+    "nodemon": "^1.11.0",
+    "sass-module-importer": "^1.4.0",
+    "serve-favicon": "~2.4.2",
+    "socket.io": "^2.0.3",
+    "socket.io-client": "^2.0.3",
+    "twig": "~0.10.3",
+    "watchify": "^3.9.0",
+    "wowjs": "^1.1.3"
+  }
+}

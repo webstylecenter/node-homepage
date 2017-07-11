@@ -1,0 +1,13 @@
+{
+  "development": {
+    "database": {
+      "host": "localhost",
+      "username": "root",
+      "password": "plex8432",
+      "database": "homepage"
+    }
+  },
+  "production": {
+
+  }
+}

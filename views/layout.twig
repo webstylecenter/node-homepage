@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html manifest="/offline.manifest">
+  <head>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    {% block body %}{% endblock %}
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/javascripts/bundle.js"></script>
+  </body>
+</html>
